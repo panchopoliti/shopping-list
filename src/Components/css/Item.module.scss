@@ -1,0 +1,39 @@
+@import '../../css/colors';
+@import '../../css/fonts';
+
+.button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    font-weight: 900;
+    border: 0;
+    padding: 0.7em 0.5em;
+    opacity: 1;
+    font-size: 0.8em;
+
+    .item {
+        letter-spacing: 0.02857em;
+        font-size: 1.4em;
+        color: $secondary-darker;
+        font-family: $abel;
+        word-break: break-word;
+        text-transform: none;
+    }
+
+    .itemClicked {
+        opacity: 0.4;
+    }
+
+    .icon {
+        fill: $secondary-darker;
+        padding-left: 1em;
+    }
+
+    .iconClicked {
+        fill: $success-lighter;
+    }
+    
+}

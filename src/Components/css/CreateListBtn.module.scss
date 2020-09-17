@@ -1,0 +1,116 @@
+@import '../../css/colors';
+@import '../../css/mediaQueries';
+
+$buttons-opacity: 0.8;
+
+.hidden {
+    visibility: hidden;
+}
+
+.container {
+    position: fixed;
+    bottom: 1em;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+
+    .subContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .button {
+            border-radius: 50%;
+            background-color: $success-lighter;
+            color: #fff;
+            border: 0;
+            width: 5em;
+            height: 5em;
+            opacity: $buttons-opacity;
+            padding: 0;
+        
+            &:active {
+                opacity: 1;
+            }
+        
+            .text {
+                font-size: 2.5em;
+            }
+        }
+        
+        .tooltip {
+            background-color: $success-lighter;
+            color: #fff;
+            opacity: $buttons-opacity;
+        
+            &:active {
+                opacity: 1;
+            }
+        }
+    }
+
+}
+
+.messageContainer {
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .messageSubContainer {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: $min-tablet) {
+
+    $message-padding-x: 2em;
+    $buttons-opacity: 0.9;
+    $buttons-font-weight: 900;
+
+    .container {
+        right: 3em;
+        bottom: 2em;
+    
+        .subContainer {
+    
+            .button {
+                opacity: $buttons-opacity;
+                font-size: 1.2em;
+            
+                .text {
+                    font-weight: $buttons-font-weight;
+                    font-size: 1em;
+                }
+            }
+
+            .tooltip {
+                font-size: 1em;
+                opacity: $buttons-opacity;
+                font-weight: $buttons-font-weight;
+            }
+        }
+    }
+
+    .messageContainer {
+
+        .messageSubContainer {
+            width: 40%;
+            padding: 0 $message-padding-x 1em;
+        }
+    
+        .buttonContainer {
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            top: 2px;
+            right: 10px;
+            padding-left: $message-padding-x;
+        }
+    }
+}

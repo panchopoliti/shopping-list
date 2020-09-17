@@ -1,0 +1,31 @@
+@import '../../../css/colors';
+@import '../../../css/fonts';
+
+.container {
+    display: inline-block;
+    width: 80%;
+
+    .label {
+        color: $secondary-darkest;
+        font-family: $roboto;
+    }
+    
+    .input {
+        margin: 1em 0 2em;
+        font-family: $roboto;
+        padding: 1em;
+        border: 1px solid #CCCCCC;
+        width: 85%;
+        background-color: #fff;
+    }
+
+    .inputError {
+        border: 1px solid #ef5858;;
+    }
+
+    .smallErrorMessage {
+        @media screen and (max-width: 360px){
+            font-size: 0.8em;
+        }
+    }
+}

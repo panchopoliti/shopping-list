@@ -1,0 +1,63 @@
+@import '../../../css/colors';
+
+.container {
+    text-align: center;
+    padding: 1em 2em;
+    z-index: 2;
+    opacity: 0.8;
+    margin: 1px 0;
+}
+
+.errorContainer {
+    @extend .container;
+    background-color: $danger-lighter;
+    border-color: $danger-lightest;
+
+    .error {
+        color: $danger-darker;
+    }
+}
+.warningContainer {
+    @extend .container;
+    background-color: $warning-lighter;
+
+    .warning {
+        color: $warning;
+    }
+}
+.successContainer {
+    @extend .container;
+    background-color: $success-lightest;
+
+    .success {
+        color: $success-darker;
+    }
+}
+@import '../../../css/mediaQueries';
+
+.primaryContainer {
+    @extend .container;
+    background-color: $primary-lighter;
+    border-color: $primary-lightest;
+
+    .primary {
+        color: $primary;
+    }
+}
+
+.buttonContainer {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    
+    .button {
+        color: #000;
+        opacity: 0.5;
+        background-color: transparent;
+        padding: 0;
+
+        &:before {
+            content:'\00d7';
+        }
+    }
+}

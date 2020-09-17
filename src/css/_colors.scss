@@ -1,0 +1,110 @@
+$primary-lightest: #d9edf7;
+$primary-lighter: #bce8f1;
+$primary: #31708f;
+
+$secondary-lightest: #F1F2F3;
+$secondary-lighter: #e4e8e8;
+$secondary: #a4a6a8;
+$secondary-darker: #8a8b8c;
+$secondary-darkest: #565656;
+
+$warning-lighter: #FEEFB3;
+$warning: #9F6000;
+
+$danger-lightest: #ebccd1;
+$danger-lighter: #FFBABA;
+$danger: #fa383e;
+$danger-darker: #a94442;
+
+$success-lightest: #DFF2BF;
+$success-lighter: #38df8b;
+$success: #26b226;
+$success-darker: #4F8A10;
+
+$charcoal: #264653ff;
+$shiny-shamrock: #5aa786ff;
+$asparagus: #8ab17dff;
+$dark-khaki: #BABB74;
+$orange-yellow-crayola: #e9c46aff;
+$sunray: #efb366ff;
+$sandy-brown: #f4a261ff;
+$kobe: #792511;
+
+$rich-black: #001223;
+$gunmetal: #1C333E;
+$dark-slate-gray: #385154ff;
+$ecru: #d3c38aff;
+$jasmine: #f4d58dff;
+$international-orange-engineering: #bf0603ff;
+$dark-red: #8d0801ff;
+$ruby-red: #971e18ff;
+
+$eggshell: #f4f1deff;
+$tumbleweed: #eab69fff;
+$terra-cotta: #e07a5fff;
+$independence: #3d405bff;
+$green-sheen: #81b29aff;
+$sage: #BABF95;
+$deep-champagne: #f2cc8fff;
+$deep-champagne-2: #f3d199ff;
+
+$back-palettes: 
+    $charcoal,
+    $shiny-shamrock,
+    $asparagus,
+    $dark-khaki,
+    $orange-yellow-crayola,
+    $sunray,
+    $sandy-brown,
+    $kobe,
+
+    $rich-black,
+    $gunmetal,
+    $dark-slate-gray,
+    $ecru,
+    $jasmine,
+    $international-orange-engineering,
+    $dark-red,
+    $ruby-red,
+
+    $eggshell,
+    $tumbleweed,
+    $terra-cotta,
+    $independence,
+    $green-sheen,
+    $sage,
+    $deep-champagne,
+    $deep-champagne-2;
+
+$back-palettes-text-color:
+    #fff,
+    #000,
+    #000,
+    #000,
+    #000,
+    #000,
+    #000,
+    #fff,
+
+    #fff,
+    #fff,
+    #fff,
+    #000,
+    #000,
+    #fff,
+    #fff,
+    #fff,
+
+    #000,
+    #000,
+    #000,
+    #fff,
+    #000,
+    #000,
+    #000,
+    #000;
+
+
+:export {
+    loadingSpinnerDefaultColor: $secondary-darkest;
+}

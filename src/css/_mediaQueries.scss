@@ -1,0 +1,6 @@
+$min-tablet-num: 767;
+$min-tablet: $min-tablet-num + 'px';
+
+:export {
+    minTabletWidth: $min-tablet-num;
+};

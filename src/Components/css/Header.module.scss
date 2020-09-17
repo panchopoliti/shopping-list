@@ -1,0 +1,78 @@
+@import '../../css/colors';
+@import '../../css/mediaQueries';
+
+.container {
+    display: flex;
+    height: 8vh;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 0;
+
+    .leftContainer {
+        display: flex;
+        flex-direction: row;
+
+        .dayOfMonth {
+            margin: 0;
+            font-size: 2.4em;
+            padding-right: 0.1em;
+            color: $secondary-darkest;
+        }
+
+        .leftSubContainer {
+            display: flex;
+            flex-direction: column;
+            padding-top: 0.4em;
+
+            .month {
+                text-transform: uppercase;
+                color: $secondary-darkest;
+            }
+    
+            .year{
+                color: $secondary-darkest;
+            } 
+        }
+
+
+    }
+
+    .rightContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .dayOfWeek {
+            color: $secondary-darkest;
+            margin: 0;
+            text-transform: uppercase;
+        }
+    }
+}
+
+@media screen and (min-width: $min-tablet) {
+
+    .container {
+    
+        .leftContainer {
+    
+            .dayOfMonth {
+                font-size: 3.7em;
+            }
+    
+            .leftSubContainer {
+    
+                .month, .year {
+                    font-size: 1.5em
+                }
+            }
+        }
+
+        .rightContainer {
+
+            .dayOfWeek {
+                font-size: 1.5em;
+            }
+        }
+    }
+}
