@@ -24,12 +24,12 @@ Google Apps Script [(source code)](https://gist.github.com/panchopoliti/f97d3ce9
 React JS
 
 ### CSS
-CSS-Modules
+CSS-Modules,
 Sass
 
 ### Libraries
-Lodash
-Dayjs
+Lodash,
+Dayjs,
 focus-visible
 
 ## Deployment
