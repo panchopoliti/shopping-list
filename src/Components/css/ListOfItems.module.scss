@@ -3,6 +3,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 3em;
 }
 
 @media screen and (min-width: $min-tablet) {
