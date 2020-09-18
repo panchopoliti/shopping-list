@@ -58,6 +58,10 @@ li {
             height: 43%;
         }
 
+        &:nth-last-child(1) {
+            padding-right: 10px;
+        }
+
         .title {
             text-align: center;
         }
