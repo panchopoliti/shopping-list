@@ -9,8 +9,7 @@ https://panchopoliti.github.io/shopping-list/
 `npm start`
 
 ## Motivation
-UI which let me and members of my family to pick what to buy in the supermarket before going, and recieve the list by mail.
-It takes the data from a Google Spreadsheet, which makes it easier for anyone to update it with new information.
+Read [ROADMAP](https://github.com/panchopoliti/shopping-list/blob/master/ROADMAP.md)
 
 ## Technologies used
 
