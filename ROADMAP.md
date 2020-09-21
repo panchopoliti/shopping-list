@@ -11,7 +11,7 @@ Once the user is in the shop, she will check her list (made before going shoppin
 
 ## Next Steps
 + Make offline first
-+ Save for your next shopping time (_ new feature_)
++ Save for your next shopping time ( _new feature_ )
 + User Access
 + Connect it to a Database and display lists in App
 + Add search product box
