@@ -1,9 +1,9 @@
+# Shopping List
+
+[Homepage](https://panchopoliti.github.io/shopping-list/)
+
 ## Summary
 Speed up the usual shopping process through a Web App, which allows people to select what they want to shop, out of a list of products they usually consume. Read more in [ROADMAP](https://github.com/panchopoliti/shopping-list/blob/master/ROADMAP.md)
-
-## URL
-https://panchopoliti.github.io/shopping-list/
-
 
 ## Setup
 `npm install`
